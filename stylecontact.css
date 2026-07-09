@@ -1,0 +1,63 @@
+html,
+  body{
+    text-align: center;
+    background:grey;
+    background-image: url('https://t3.ftcdn.net/jpg/01/04/61/96/240_F_104619688_UP27I7cxkZKuNZn9GxCLCj0TztesAyMV.jpg');
+  }
+  main { 
+    padding: 40px;
+    margin: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* <img src="https://thumbs.dreamstime.com/z/pet-adoption-illustration-hands-holding-dogs-cats-shelter-banner-isolated-cute-animals-adopt-vector-background-193794625.jpg"> */
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210327/pngtree-cute-dog-tiled-background-blue-bones-image_595780.jpg');
+    
+  }.card {
+
+  width: 400px;
+
+  border: 2px solid black; border-radius: 25px;
+
+  padding: 10px;
+
+  margin: 100px;
+  }
+  img {
+
+  width: 100%;
+
+  border-radius: 25px;
+  }
+  h2 { 
+    color:#d56130;
+  }
+a{
+  color: white;
+}
+button{
+  background-color: black;
+}
+  span{
+    color: #946F24;
+  }
+  h4{
+  text-align: right;
+
+  color: #3c787e;
+  }
+  #pets {
+    display: flex;
+    justify-content: space-evenly;
+  }
+    @media (max-width = 375px) {
+      #pets{
+        flex-wrap: wrap;
+      }
+    }
+  footer{
+    padding: 30px;
+    margin: 80px;
+    height: 60px;
+    align-items: center;
+  }
